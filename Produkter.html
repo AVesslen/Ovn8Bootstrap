@@ -17,61 +17,95 @@
 
 <body>
     
-    <header>
-        <!-- Logotyp och företagsnamn --> 
-        <h1 class="fw-bolder">Kaffeparty
-        <small class="fw-normal fst-italic">Partyn och kaffemaskiner</small></h1>
-    </header>  
+  <header>     
+    <div
+      class="p-5 text-center bg-image img-fluid"
+      style="background-image: url('kaffebönor.png'); height: 200px;">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3">Kaffeparty</h1>
+            <h4 class="mb-3 fst-italic">Partyn och kaffemaskiner</h4>           
+          </div>
+        </div>
+      </div>
+    </div> 
+  </header>
+  
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Hem</a></li>  
-            <li><a href="Produkter.html">Produkter</a></li>
-            <li><a href="OmOss.html">Om Oss</a></li>            
-        </ul>
-    </nav>
+  
+
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Hem</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="OmOss.html">Om oss</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Produkter.html">Produkter</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <div>
-        Kaffeparty
-        Kaffemaskiner
+        <a href="#Kaffeparty">Kaffeparty</a>
+        <a href="#Kaffemaskiner">Kaffemaskiner</a>
     </div>
 
-    <div>
-        Kaffemaskiner
+    <!--vit ruta runt länk <a--
+    class="btn btn-outline-light btn-lg m-2"
+    href="https://mdbootstrap.com/docs/standard/"
+    target="_blank"
+    role="button"
+  >Download MDB UI KIT</a-->
+
+    <div id="Kaffemaskiner">
+        <h2 class="lead text-center display-6 fw-bold mb-3 m-5">Kaffemaskiner</h2>
 
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img width="200" height="200" src="tre_kaffekoppar.jpg">
-                    <h2>Modell: X1-001</h2>
+                    <img width="200" height="200" src="tre_kaffekoppar.jpg" class="img-fluid" alt="">
+                    <h3>Modell: X1-001</h3>
                     <p>Info om den här kaffemaskinen...</p>
                     <p>Pris: 4999 kr</p>
                     <p><a class="btn btn-dark" href="" role="button">Visa mer</a></p>
                 </div>
                 <div class="col-md-4">
-                    <img width="200" height="200" src="tre_kaffekoppar.jpg">
-                    <h2>Modell: X2-002</h2>
+                    <img width="200" height="200" src="tre_kaffekoppar.jpg" class="img-fluid" alt="">
+                    <h3>Modell: X2-002</h3>
                     <p>Info om den här kaffemaskinen...</p>
                     <p>Pris: 8899 kr</p>
                     <p><a class="btn btn-primary" href="" role="button">Visa mer</a></p>
                 </div>
                 <div class="col-md-4">
-                    <img width="200" height="200" src="tre_kaffekoppar.jpg">
-                    <h2>Modell: X3-003</h2>
+                    <img width="200" height="200" src="tre_kaffekoppar.jpg" class="img-fluid" alt="">
+                    <h3>Modell: X3-003</h3>
                     <p>Info om den här kaffemaskinen...</p>
                     <p>Pris: 11999 kr</p>
                     <p><a class="btn btn-primary" href="" role="button">Visa mer</a></p>
                 </div>
                 <div class="col-md-4">
-                    <img width="200" height="200" src="tre_kaffekoppar.jpg">
-                    <h2>Modell: C1-001</h2>
+                    <img width="200" height="200" src="tre_kaffekoppar.jpg" class="img-fluid" alt="">
+                    <h3>Modell: C1-001</h3>
                     <p>Info om den här kaffemaskinen...</p>
                     <p>Pris: 3999 kr</p>
                     <p><a class="btn btn-primary" href="" role="button">Visa mer</a></p>
                 </div>
                 <div class="col-md-4">
-                    <img width="200" height="200" src="tre_kaffekoppar.jpg">
-                    <h2>Modell: C2-002</h2>
+                    <img width="200" height="200" src="tre_kaffekoppar.jpg" class="img-fluid" alt="">
+                    <h3>Modell: C2-002</h3>
                     <p>Info om den här kaffemaskinen...</p>
                     <p>Pris: 4999 kr</p>
                     <p><a class="btn btn-primary" href="" role="button">Visa mer</a></p>
@@ -79,14 +113,14 @@
                 
             </div>
         </div>
-
-
-
-
-
-
     </div>
 
+    <div id="Kaffeparty">
+      
+      <div class="lead text-center display-6 fw-bold mb-3 m-5">Kaffeparty</div>
+      Privatpersoner
+      Företag
+    </div>
 
 
 
