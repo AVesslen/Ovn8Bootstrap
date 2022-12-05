@@ -1,9 +1,26 @@
-body {
 
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-   
-    /*background-image: url('../tre_kaffekoppar.jpg');*/
-    
+/*header{
+    background-color:rgb(91, 59, 59); 
+    height:200px;
+    text-align: center;     
+}*/
 
+body{
+background-color: whitesmoke;
 }
+
+/*nav{
+    background-color:rgb(91, 59, 59); 
+    height:50px;
+    text-align: center;     
+}*/
+
+
+/*body {
+
+    
+    padding-top: 3rem;
+    padding-bottom: 3rem;*/
+   
+    /*background-image: url('../tre_kaffekoppar.jpg');  
+}/*
